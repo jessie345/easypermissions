@@ -10,7 +10,7 @@ import android.widget.Toast;
 import pub.devrel.easypermissions.AfterPermissionGranted;
 import pub.devrel.easypermissions.EasyPermissions;
 
-public class MainFragment extends BaseFragment implements EasyPermissions.PermissionCallbacks {
+public class MainFragment extends PermissionsFragment implements EasyPermissions.PermissionCallbacks {
 
     private static final int RC_SMS_PERM = 122;
 
